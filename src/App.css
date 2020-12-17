@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Open+Sans+Condensed:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  border: 0;
+}
+
+.App {
+  text-align: center;
+  width: 95%;
+  margin: auto;
+  font-family: "Karma", sans-serif;
+  background-color: #ffffff;
+  min-height: 100vh;
+  border: 0.01px solid #323232;
+}
+
+.post {
+  width: 100%;
+  object-fit: contain;
+}
+
+h1,
+h2 {
+  font-family: "Krona One", sans-serif;
+}
+
+h3 {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+
+
+
+
+.creator {
+  text-decoration: underline rgba(179, 178, 178, 0.8);
+}
+
+.errors {
+  color: red;
+}
+
+.form {
+  width: 35%;
+  margin: 5% auto;
+  background-color: #F6EEE0;
+  /* border-top:2px solid white;
+  border-bottom:3px solid black;
+  border-left: 5px outset black; */
+  border-radius: 10px;
+  padding: 3%;
+}
+
+.submit {
+  margin-top: 20px;
+}
+
+.inputs {
+  display: flex;
+  flex-flow: column;
+  line-height: 2rem;
+}
+
+.inner-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #E4B7A0;
+
+  cursor: pointer;
+  border-radius: 2%;
+  font-size: 20px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.inner-button:hover {
+  border: 1px solid black;
+  background-color: #C38370;
+}
+
+.post-button {
+  background-color: rgb(167, 168, 240);
+  padding: 2rem;
+  margin-top: 3rem;
+  border-radius: 10px;
+  border: 1px solid rgb(38, 40, 41);
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  color: #F7F5F6;
+  transition: all 0.2s;
+}
+
+.post-button:hover {
+  color: rgba(231, 231, 231, 0.986);
+  border: 1px solid white;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .my-post {
+  border-radius: 10px;
+  width: 65%;
+  margin: 5% auto;
+  padding: 8% 10%;
+  background-color: rgb(99, 99, 99);
+  border: 1px solid rgba(179, 178, 178, 0.8);
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 1px 1px black;
+  font-size: 1.2rem;
+  box-shadow: 2px 4px 15px 2px black;
+} */
+
+img:hover {
+  box-shadow: 2px 4px 15px 2px black;
+}
+
+.edit-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit-form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  line-height: 2rem;
+  width: 70%;
+  justify-content: center;
+}
+
+.form-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 100%;
+}
+
+.form-field {
+  margin-top: 1rem;
+  background-color: rgba(179, 178, 178, 0.8);
+  padding: 1rem;
+  border-radius: 10px;
+  border: 2px solid rgba(179, 178, 178, 0.8);
+  color: rgb(39, 39, 39);
+  min-width: 80%;
+}
+
+.form-field:hover {
+  border: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+.button-change {
+  margin-top: 1rem;
+  padding: 1rem;
+  min-width: 30%;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #323232ee;
+  transition: all 0.2s;
+}
+
+.edit-button {
+  background-color: rgb(167, 168, 240);
+  border: 1px solid rgb(167, 168, 240);
+}
+
+.new-post-button {
+  background-color: rgb(167, 168, 240);
+  border: 1px solid rgb(167, 168, 240);
+  width: 100%;
+}
+
+.delete-button {
+  background-color: rgb(252, 72, 72);
+  border: 1px solid rgb(252, 72, 72);
+}
+
+.button-change:hover {
+  cursor: pointer;
+  color: rgba(231, 231, 231, 0.986);
+  border: 1px solid white;
+}
+
+.ghost {
+  height: 13vh;
+}
+
+.title {
+  margin: 1rem;
+}
+
+.form-spacer {
+  display: flex;
+  justify-content: center;
+}
+
+.form-holder {
+  width: 50%;
+}
+
+.new-post-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 90%;
+  color: rgba(179, 178, 178, 0.8);
+}
+
+.new-post-field {
+  margin-top: 1rem;
+  background-color: rgba(179, 178, 178, 0.8);
+  padding: 1rem;
+  border-radius: 10px;
+  border: 2px solid rgba(179, 178, 178, 0.8);
+  color: rgb(39, 39, 39);
+  min-width: 85%;
+}
